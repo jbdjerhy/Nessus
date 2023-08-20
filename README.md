@@ -36,3 +36,37 @@ This project involves setting up Nessus on Linux virtual machines, conducting vu
 - Advanced host scan results.
 - Nessus set up in Kali Linux using an alternative method.
 - Successful vulnerability scan results in Kali Linux.
+
+
+# Nessus Setup and Scans
+
+- Installed Nessus on Linux VM in my Virtualbox lab
+
+- Did a discovery scan with the following result
+
+[Insert discovery scan result here]
+
+- Performed a basic network vulnerability scan
+
+[Insert information about the basic network vulnerability scan]
+
+- I have opened and researched the following error
+
+[Insert information about the encountered error]
+
+- I have installed Metasploitable which is intentionally made with a lot of vulnerabilities and ran the advanced host scan
+
+- Second Method of Setting up Nessus in Kali
+
+```bash
+└─$ curl --request GET \
+  --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.5.4-debian10_amd64.deb' \
+  --output 'Nessus-10.5.4-debian10_amd64.deb'
+dpkg -i Nessus-<version number>-debian6_amd64.deb
+systemctl start nessusd
+
+
+
+
+
+
