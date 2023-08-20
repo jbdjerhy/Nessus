@@ -44,19 +44,22 @@ This project involves setting up Nessus on Linux virtual machines, conducting vu
 
 - Did a discovery scan with the following result
 
-[Insert discovery scan result here]
+![Picture1](https://github.com/jbdjerhy/Nessus/assets/142699688/15a6b9c6-f937-42ae-ae30-86ccd4fadbe6)
 
 - Performed a basic network vulnerability scan
 
-[Insert information about the basic network vulnerability scan]
+![Picture2](https://github.com/jbdjerhy/Nessus/assets/142699688/9ca367d4-609c-4c84-8831-e8bb90cc84b1)
 
-- I have opened and researched the following error
+- I have opened and researched the following vulnerability
 
-[Insert information about the encountered error]
+![Picture3](https://github.com/jbdjerhy/Nessus/assets/142699688/e37da641-3e9e-4db4-8425-394ba84f4684)
 
 - I have installed Metasploitable which is intentionally made with a lot of vulnerabilities and ran the advanced host scan
 
 - Second Method of Setting up Nessus in Kali
+![Picture4](https://github.com/jbdjerhy/Nessus/assets/142699688/278a3614-adb6-41bc-9445-c0ca931f0053)
+
+![Picture5](https://github.com/jbdjerhy/Nessus/assets/142699688/d3d00a45-3b08-4e7b-ab0a-4a1b4ac0716d)
 
 ```bash
 └─$ curl --request GET \
@@ -65,6 +68,7 @@ This project involves setting up Nessus on Linux virtual machines, conducting vu
 dpkg -i Nessus-<version number>-debian6_amd64.deb
 systemctl start nessusd
 
+Successfully logged in using the localhost address on my Kali Linux machine
 
 
 
